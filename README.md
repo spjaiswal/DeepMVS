@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
-**DeepMVS** is a Deep Convolutional Neural Network which learns to estimate pixel-wise disparity maps from a sequence of an arbitrary number of unordered images with the camera poses already known or estimated. 
+**DeepMVS** is a Deep Convolutional Neural Network which learns to estimate pixel-wise disparity maps from a sequence of an arbitrary number of unordered images with the camera poses already known or estimated.
 
 ![teaser1](img/teaser1.gif)
 ![teaser2](img/teaser2.gif)
@@ -29,7 +29,7 @@ For the paper and other details of DeepMVS or the MYS-Synth Dataset, please see 
 - **pytorch 0.3.0** and **torchvision**: Follow the instructions from [their website](http://pytorch.org/).
 - **opencv 3.1.0**: Run ``conda install -c menpo opencv`` or ``pip install opencv-python``.
 - **imageio 2.2.0** (with freeimage plugin): Run ``conda install -c conda-forge imageio`` or ``pip install imageio``. To install freeimage plugin, run the following Python script once:
-    ```python 
+    ```python
     import imageio
     imageio.plugins.freeimage.download()
     ```
@@ -60,9 +60,9 @@ For the paper and other details of DeepMVS or the MYS-Synth Dataset, please see 
 - **imageio 2.2.0**: Run ``conda install -c conda-forge imageio`` or ``pip install imageio``.
 - **pyquaternion 0.9.0**: Run ``pip install pyquaternion``.
 - **pydensecrf**: Run ``pip install pydensecrf``.
-- **cuda 8.0.61** and **6GB GPU RAM** (required for gpu support): The testing codes use up to 4GB of the GPU RAM with the default configuration. 
-- **COLMAP 3.2**: Follow the instructions from [their website](https://colmap.github.io/). 
- 
+- **cuda 8.0.61** and **6GB GPU RAM** (required for gpu support): The testing codes use up to 4GB of the GPU RAM with the default configuration.
+- **COLMAP 3.2**: Follow the instructions from [their website](https://colmap.github.io/).
+
 ### Instructions
 
 1. Download the trained model.
